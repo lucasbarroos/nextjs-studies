@@ -3,13 +3,13 @@ import '../styles/Home.module.scss';
 
 export default function Home() {
   return (
-    <div>
+    <div className="container">
       <Head>
         <title>Harry Potter Library</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>
-        <div className="example">How it works</div>
+        <div className="title">Harry Potter Library</div>
       </body>
     </div>
   )
