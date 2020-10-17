@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import '../styles/Home.module.scss';
+import '../styles/Index.module.scss';
 
-export default function Home() {
+export default function Index() {
   return (
     <div className="container">
       <Head>
