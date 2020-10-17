@@ -56,6 +56,9 @@ export default function Index() {
           </div>
           <div className="about-border-effect-end" />
         </div>
+        <div className="contact-section">
+        Contact section
+        </div>
       </body>
     </div>
   )

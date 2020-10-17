@@ -1,6 +1,6 @@
 $imageWidth: 80vh;
-$firstSecondMinHeight: 60vh;
-$secondSecondMinHeight: 35vh;
+$firstSecondMinHeight: 65vh;
+$secondSecondMinHeight: 30vh;
 
 .container {
   position: relative;
@@ -11,7 +11,7 @@ $secondSecondMinHeight: 35vh;
 }
 
 .title {
-  color: #1D2027;
+  color: black;
   font-size: 8rem;
   font-weight: bold;
   text-align: right;
@@ -30,17 +30,16 @@ $secondSecondMinHeight: 35vh;
   color: red;
 }
 
-
 .picture1 {
   left: calc(50% - 100px);
   position: absolute;
   text-align: left;
   min-width: $imageWidth;
+  z-index: -1;
 }
 
 .about-container {
-  position: absolute;
-  top: ($firstSecondMinHeight - 8vh);
+  margin-top: -10vh;
   z-index: 200;
 }
 
@@ -124,4 +123,8 @@ $secondSecondMinHeight: 35vh;
   width: 100px;
   border-radius: 50px;
   margin: 0px 2vw 10px 2vw;
+}
+
+.contact-section {
+  min-height: 40vh;
 }
