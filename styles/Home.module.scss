@@ -1,8 +1,6 @@
 $titleFontSize: 42px;
 
 .container {
-    background-color: black;
-    min-height: 100vh;
     padding: 20px;
 }
 
@@ -10,5 +8,4 @@ $titleFontSize: 42px;
   font-size: $titleFontSize;
   text-align: center;
   color: white;
-  font-family: 'Bangers-Regular';
 }
