@@ -1,7 +1,13 @@
-$imageWidth: 650px;
+$imageWidth: 80vh;
+$firstSecondMinHeight: 60vh;
+$secondSecondMinHeight: 35vh;
 
 .container {
-  padding: 20px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: $firstSecondMinHeight;
+  align-items: center;
 }
 
 .title {
@@ -25,4 +31,49 @@ $imageWidth: 650px;
   position: absolute;
   text-align: left;
   min-width: $imageWidth;
+}
+
+.about-container {
+  position: absolute;
+  top: ($firstSecondMinHeight - 8vh);
+  z-index: 200;
+}
+
+.about-border-effect {
+  line-height: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent #1D2027 #1D2027 transparent;
+  border-width: 0px 0px 75px calc(100vw - 15px);
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+  justify-content: center;
+  left: 0px;
+  min-height: 450px;
+  background: #1D2027;
+  color: white;
+  width: 100%;
+}
+
+.about-section-picture-content {
+  text-align: right;
+  padding: 20px 3vw 20px 20px;
+}
+
+.about-section-picture {
+  height: $secondSecondMinHeight;
+  width: $secondSecondMinHeight;
+  border-radius: 50%;
+}
+
+.about-section-text {
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+  padding: 20px 5vw 20px 20px;
 }
