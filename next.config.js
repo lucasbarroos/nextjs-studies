@@ -3,6 +3,7 @@ const withCSS = require("@zeit/next-css");
 const withFonts = require('next-fonts');
 
 module.exports = withCSS(withSass(withFonts({
+   experimental: true,
    enableSvg: true,
    webpack (config, options) {
        config.module.rules.push({
