@@ -57,7 +57,11 @@ export default function Index() {
           <div className="about-border-effect-end" />
         </div>
         <div className="contact-section">
-        Contact section
+          <p>Contact me</p>
+          <input className="contact-input" placeholder="Name" />
+          <input className="contact-input" placeholder="E-mail" />
+          <textarea className="contact-input" placeholder="Type a message here" rows="8"></textarea>
+          <button className="contact-button">Send</button>
         </div>
       </body>
     </div>

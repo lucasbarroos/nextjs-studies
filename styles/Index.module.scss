@@ -1,6 +1,6 @@
-$imageWidth: 80vh;
-$firstSecondMinHeight: 65vh;
-$secondSecondMinHeight: 30vh;
+$imageWidth: 100vh;
+$firstSecondMinHeight: 80vh;
+$secondSecondMinHeight: 40vh;
 
 .container {
   position: relative;
@@ -39,7 +39,7 @@ $secondSecondMinHeight: 30vh;
 }
 
 .about-container {
-  margin-top: -10vh;
+  margin-top: -12vh;
   z-index: 200;
 }
 
@@ -127,4 +127,61 @@ $secondSecondMinHeight: 30vh;
 
 .contact-section {
   min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20vh;
+}
+
+.contact-section p {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact-input {
+  width: 35vw;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 5px 10px 5px;
+  border-radius: 7px;
+  border: none;
+  background-color: #ddd;
+}
+
+.contact-input:active {
+  outline: none !important;
+  border: none;
+  box-shadow: 0 0 8px #ddd;
+}
+
+.contact-input:focus {
+  outline: none !important;
+  border: none;
+  box-shadow: 0 0 8px #ddd;
+}
+
+.contact-button  {
+  width: 36vw;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0px;
+  border-radius: 7px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #1D2027;
+  color: white;
+}
+
+.contact-button:focus {
+  outline: none !important;
+  border: none;
+  box-shadow: 0 0 8px #ddd;
 }
